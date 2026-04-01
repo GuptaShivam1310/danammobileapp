@@ -5,17 +5,6 @@ import { Image } from 'react-native';
 
 jest.useFakeTimers();
 
-jest.mock('react-native-fast-image', () => {
-  const ReactLib = require('react');
-  const { View } = require('react-native');
-  const FastImage = (props: any) => {
-    return ReactLib.createElement('View', { testID: 'fast-image', ...props });
-  };
-  FastImage.resizeMode = { contain: 'contain', cover: 'cover', stretch: 'stretch', center: 'center' };
-  FastImage.priority = { normal: 'normal' };
-  FastImage.cacheControl = { immutable: 'immutable' };
-  return FastImage;
-});
 
 jest.mock('react-native', () => {
   const ReactLib = require('react');

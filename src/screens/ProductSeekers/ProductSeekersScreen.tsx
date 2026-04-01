@@ -3,6 +3,7 @@ import {
     ActivityIndicator,
     FlatList,
     Image,
+    ImageBackground,
     ListRenderItemInfo,
     Text,
     TextInput,
@@ -17,7 +18,6 @@ import { scale } from '../../theme/scale';
 import { Seeker } from '../../services/api/productSeekersApi';
 import { useProductSeekers } from './useProductSeekers';
 import { createStyles } from './styles';
-import FastImage from 'react-native-fast-image';
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -244,7 +244,7 @@ export const ProductSeekersScreen: React.FC<Props> = ({ route }) => {
                 </View>
                 <View style={styles.headerRow}>
                     {productImage ? (
-                        <FastImage
+                        <ImageBackground
                             source={{ uri: productImage }}
                             style={styles.productImage}
                             testID="product-image"

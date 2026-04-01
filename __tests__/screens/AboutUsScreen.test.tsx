@@ -5,14 +5,6 @@ import { useAboutUs } from '../../src/screens/AboutUs/useAboutUs';
 import { supportApi } from '../../src/services/api/supportApi';
 
 // Mock dependencies
-jest.mock('react-native-fast-image', () => {
-    const React = require('react');
-    const { View } = require('react-native');
-    const FastImage = ({ testID, source }: any) => React.createElement(View, { testID, source });
-    FastImage.resizeMode = { cover: 'cover' };
-    FastImage.priority = { normal: 'normal' };
-    return FastImage;
-});
 
 const mockGoBack = jest.fn();
 jest.mock('@react-navigation/native', () => ({

@@ -171,28 +171,3 @@ jest.mock('./src/services/locationService', () => ({
     }),
   ),
 }));
-
-jest.mock('react-native-fast-image', () => {
-  const React = require('react');
-  const FastImage = props => React.createElement('FastImage', props);
-  FastImage.resizeMode = {
-    contain: 'contain',
-    cover: 'cover',
-    stretch: 'stretch',
-    center: 'center',
-  };
-  FastImage.priority = {
-    low: 'low',
-    normal: 'normal',
-    high: 'high',
-  };
-  FastImage.cacheControl = {
-    immutable: 'immutable',
-    web: 'web',
-    cacheOnly: 'cacheOnly',
-  };
-  return {
-    __esModule: true,
-    default: FastImage,
-  };
-}, { virtual: true });

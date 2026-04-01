@@ -10,7 +10,6 @@ import {
   ActivityIndicator,
   StyleSheet,
 } from 'react-native';
-import FastImage from 'react-native-fast-image';
 import { authUiColors, palette } from '../../../constants/colors';
 import { AppImages } from '../../../assets/images';
 
@@ -112,40 +111,12 @@ export const AppImage: React.FC<AppImageProps> = ({
     onError?.(event);
   };
 
-  const fastImageResizeMode = useMemo(() => {
-    switch (resizeMode) {
-      case 'contain':
-        return FastImage.resizeMode.contain;
-      case 'stretch':
-        return FastImage.resizeMode.stretch;
-      case 'center':
-        return FastImage.resizeMode.center;
-      default:
-        return FastImage.resizeMode.cover;
-    }
-  }, [resizeMode]);
-
   // Use standard Image if blurRadius is requested, as FastImage doesn't support it directly in many versions
   // Use standard Image if blurRadius is requested or if it's not a remote HTTP(S) URL
   // FastImage is great for remote images, but for local/fallbacks standard Image is safer/more predictable
   if (isRemote && !hasImageError && (!blurRadius || blurRadius === 0)) {
     return (
       <View style={[styles.container, style]}>
-        <FastImage
-          source={{
-            uri: uri,
-            priority: FastImage.priority.normal,
-            cache: FastImage.cacheControl.immutable,
-          }}
-          style={StyleSheet.absoluteFill}
-          resizeMode={fastImageResizeMode}
-          onLoadStart={() => isDisplayingRemote && startLoading()}
-          onLoadEnd={endLoading}
-          onError={() => {
-            setHasImageError(true);
-            endLoading();
-          }}
-        />
         {isLoading && isDisplayingRemote && (
           <View style={styles.loaderContainer}>
             <ActivityIndicator size="small" color={authUiColors.brandGreen} />

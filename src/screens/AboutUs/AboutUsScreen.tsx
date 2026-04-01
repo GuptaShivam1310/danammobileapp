@@ -4,7 +4,6 @@ import {
     Text,
     ScrollView,
 } from 'react-native';
-import FastImage from 'react-native-fast-image';
 import { ScreenWrapper } from '../../components/common/ScreenWrapper';
 import { Header } from '../../components/common/Header';
 import { AppLoader } from '../../components/common/AppLoader';
@@ -43,16 +42,6 @@ export const AboutUsScreen: React.FC = () => {
 
         return (
             <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-                <FastImage
-                    source={
-                        aboutData.image_url
-                            ? { uri: aboutData.image_url, priority: FastImage.priority.normal }
-                            : require('../../assets/images/aboutUs.png')
-                    }
-                    style={styles.image}
-                    resizeMode={FastImage.resizeMode.cover}
-                    testID="about-us-image"
-                />
 
                 <Text style={styles.description}>
                     {aboutData.description}
