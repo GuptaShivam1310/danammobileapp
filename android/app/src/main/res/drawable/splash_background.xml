@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0E7C66" />
+        </shape>
+    </item>
+
+    <item
+        android:left="-20dp"
+        android:right="-20dp"
+        android:top="168dp"
+        android:height="336dp"
+        android:gravity="top|center_horizontal">
+        <bitmap
+            android:gravity="fill_horizontal|top"
+            android:src="@drawable/splash_handshake" />
+    </item>
+
+    <item
+        android:top="214dp"
+        android:width="150dp"
+        android:height="33dp"
+        android:gravity="top|center_horizontal">
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/splash_logo" />
+    </item>
+</layer-list>

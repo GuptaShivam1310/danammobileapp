@@ -1,0 +1,13 @@
+<svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_110_431" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="20">
+<path d="M16 0H0V20H16V0Z" fill="white" style="fill:white;fill-opacity:1;"/>
+</mask>
+<g mask="url(#mask0_110_431)">
+<path d="M8 15.4384V19.9997L15.9993 15.3793V10.8186L8 15.4384Z" fill="#D1D1D1" style="fill:#D1D1D1;fill:color(display-p3 0.8198 0.8198 0.8198);fill-opacity:1;"/>
+<path d="M11.5808 6.62947L15.5278 4.3488L8 0V4.56119L11.5808 6.62947Z" fill="#D1D1D1" style="fill:#D1D1D1;fill:color(display-p3 0.8198 0.8198 0.8198);fill-opacity:1;"/>
+<path d="M4.89258 7.99121V12.5539L8.00134 14.3491V9.78851L4.89258 7.99121Z" fill="#D1D1D1" style="fill:#D1D1D1;fill:color(display-p3 0.8198 0.8198 0.8198);fill-opacity:1;"/>
+<path d="M15.9993 5.16626L8 9.78857V14.3492L15.9993 9.72878V5.16626Z" fill="#D1D1D1" style="fill:#D1D1D1;fill:color(display-p3 0.8198 0.8198 0.8198);fill-opacity:1;"/>
+<path d="M0.476562 4.34614L4.39986 6.64013L8.0008 4.56119V0L0.476562 4.34614Z" fill="#D1D1D1" style="fill:#D1D1D1;fill:color(display-p3 0.8198 0.8198 0.8198);fill-opacity:1;"/>
+<path d="M3.9483 13.0991V7.44423L0 5.16431V15.3796L8.00059 20V15.4387L3.9483 13.0991Z" fill="#D1D1D1" style="fill:#D1D1D1;fill:color(display-p3 0.8198 0.8198 0.8198);fill-opacity:1;"/>
+</g>
+</svg>

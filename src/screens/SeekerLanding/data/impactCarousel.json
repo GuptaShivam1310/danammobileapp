@@ -1,0 +1,20 @@
+[
+  {
+    "id": "impact-1",
+    "imageKey": "laptopBanner",
+    "titleKey": "seekerDashboard.impactCarousel.items.0.title",
+    "subtitleKey": "seekerDashboard.impactCarousel.items.0.subtitle"
+  },
+  {
+    "id": "impact-2",
+    "imageKey": "onboarding2",
+    "titleKey": "seekerDashboard.impactCarousel.items.1.title",
+    "subtitleKey": "seekerDashboard.impactCarousel.items.1.subtitle"
+  },
+  {
+    "id": "impact-3",
+    "imageKey": "onboarding3",
+    "titleKey": "seekerDashboard.impactCarousel.items.2.title",
+    "subtitleKey": "seekerDashboard.impactCarousel.items.2.subtitle"
+  }
+]

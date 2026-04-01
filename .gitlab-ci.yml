@@ -1,0 +1,80 @@
+stages:
+  - test
+  - review
+  - build
+
+variables:
+  # Note: The following variables must be set in GitLab CI/CD Settings:
+  # 1. GEMINI_API_KEY: Your Google Gemini API Key
+  # 2. GITLAB_TOKEN: A Personal Access Token with 'api' scope to post MR comments
+  # 3. ENV_FILE: The content of your .env file
+  NODE_OPTIONS: "--max_old_space_size=4096"
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .npm/
+
+# Template for Node.js based jobs
+.node_template:
+  image: node:22
+  before_script:
+    # For Mac Shell Runners: Try to load NVM if it exists
+    - export NVM_DIR="$HOME/.nvm"
+    - "[ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\""
+    - nvm use 22 || echo "Using system default node"
+    - npm install --legacy-peer-deps
+
+# Job 1: Run Tests and enforce 80% coverage
+unit_tests:
+  stage: test
+  extends: .node_template
+  script:
+    - npm test -- --coverage --watchAll=false
+  coverage: '/Lines\s*:\s*(\d+.?\d+)%/'
+  artifacts:
+    when: always
+    paths:
+      - coverage/
+    expire_in: 1 week
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+# Job 2: AI Code Review using Gemini API
+ai_code_review:
+  stage: review
+  extends: .node_template
+  variables:
+    GIT_DEPTH: 0
+  # No 'needs' tag = Wait for Stage 1 (test) to pass
+  script:
+    - node scripts/ai-code-review.js
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+# Job 3: Build Android Release APK
+# android_release_build:
+#   stage: build
+#   image: reactnativecommunity/react-native-android:latest
+#   before_script:
+#     - export ANDROID_HOME=$HOME/Library/Android/sdk
+#     - export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools
+#     - export NVM_DIR="$HOME/.nvm"
+#     - "[ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\""
+#     - nvm use 22 || echo "Using system default node"
+#     - npm install --legacy-peer-deps
+#     - echo "$ENV_FILE" > .env
+#   script:
+#     - cd android
+#     - chmod +x gradlew
+#     - ./gradlew assembleRelease
+#   artifacts:
+#     name: "Android-Release-APK-$CI_COMMIT_SHORT_SHA"
+#     paths:
+#       - android/app/build/outputs/apk/release/app-release.apk
+#     expire_in: 4 weeks
+#   rules:
+#     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+#     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

@@ -1,0 +1,755 @@
+{
+  "common": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Submit",
+    "error": "Error",
+    "tryAgain": "Something went wrong. Please try again.",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "back": "Back",
+    "loading": "Loading...",
+    "userFallback": "User",
+    "imagePickerTitle": "Select Option",
+    "noName": "No Name",
+    "retry": "Retry",
+    "reset": "Reset"
+  },
+  "validation": {
+    "emailRequired": "Email is required",
+    "emailInvalidShort": "Enter valid email",
+    "emailInvalidLong": "Please enter a valid email address",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "currentPasswordRequired": "Current password is required",
+    "newPasswordRequired": "New Password is required",
+    "newPasswordCannotBeSame": "New password cannot be the same as current password",
+    "confirmPasswordRequired": "Confirm Password is required",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "fullNameRequired": "Full Name is required",
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "minLength2": "Minimum 2 characters",
+    "messageRequired": "Message is required",
+    "phoneRequired": "Phone Number is required",
+    "phoneInvalid": "Enter 10 digit number",
+    "passwordRequirements": "Min 8 chars, 1 uppercase, 1 lowercase, 1 number, 1 special character",
+    "passwordMinLength8": "Password must be at least 8 characters",
+    "emailInvalidFormat": "Invalid email format"
+  },
+  "errors": {
+    "invalidLoginResponse": "Invalid login response",
+    "resetTokenMissing": "Reset token is missing",
+    "generic": "Something went wrong",
+    "genericTryAgain": "Something went wrong. Please try again.",
+    "sessionExpired": "Session expired. Please login again",
+    "resourceNotFound": "Resource not found",
+    "internalServerError": "Internal server error. Please try again later.",
+    "networkError": "Check your internet connection"
+  },
+  "alerts": {
+    "success": "Success",
+    "error": "Error",
+    "permissionDenied": "Permission Denied",
+    "cameraPermissionRequired": "Camera permission is required to take photos.",
+    "failedToOpenCamera": "Failed to open camera",
+    "unexpectedCameraError": "An unexpected error occurred while opening camera.",
+    "failedToOpenGallery": "Failed to open gallery",
+    "unexpectedGalleryError": "An unexpected error occurred while opening gallery.",
+    "accountCreated": "Account created successfully",
+    "passwordUpdated": "Password updated successfully",
+    "failedToUpdatePassword": "Failed to update password",
+    "deleteAccountFailed": "Failed to delete account",
+    "profileUpdated": "Profile updated successfully",
+    "failedToUpdateProfile": "Failed to update profile",
+    "accountDeleted": "Account deleted successfully",
+    "imagePickerFailed": "Image picker failed",
+    "loading": "Loading...",
+    "locationPermissionRequired": "Location permission is required to share your location.",
+    "failedToGetLocation": "Failed to get your current location."
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "invalidCredentials": "Invalid email or password"
+  },
+  "home": {
+    "title": "Discover Items",
+    "searchPlaceholder": "Search Anything",
+    "contributeTitle": "LET'S SUPPORT NEEDED",
+    "contributeHighlight": "Your support can be a ray of sunshine",
+    "contributeButton": "Contribute",
+    "loading": "Loading..",
+    "noItemsFound": "No items found",
+    "noItemsAvailable": "No items available",
+    "failedToLoadItems": "Failed to load items. Please try again.",
+    "filterPressed": "Filter pressed",
+    "filterTitle": "Filter by Categories",
+    "filterLoadFailed": "Failed to load categories. Please try again.",
+    "filterNoCategories": "No categories available",
+    "filterLoading": "Loading categories...",
+    "filterRetry": "Try again",
+    "noImage": "No Image",
+    "networkOnline": "Network: Online",
+    "networkOffline": "Network: Offline",
+    "theme": "Toggle Theme"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "dateFormat": "MMM D, YYYY h:mm A",
+    "statusTime": "9:41",
+    "emptyTitle": "No notifications",
+    "emptySubtitle": "You're all caught up"
+  },
+  "search": {
+    "title": "Search",
+    "recentTitle": "Recent Searches",
+    "resultsFor": "Search result for “{{query}}”",
+    "noResults": "No results found"
+  },
+  "myPost": {
+    "title": "My Contributions",
+    "noContributionsTitle": "No contributions added yet",
+    "noContributionsSubtitle": "Let’s support needed",
+    "continueButton": "Continue",
+    "awaiting": "Awaiting",
+    "contributed": "Contributed",
+    "contributedOn": "Contributed on ",
+    "empty": {
+      "title": "No Contributions Yet",
+      "subTitle": "Oops! You don't have any contributions right now.",
+      "button": "Continue"
+    },
+    "noContributedTitle": "No Posts Contributed",
+    "noContributedSubtitle": "It looks like you haven't contributed any posts yet."
+  },
+  "wishlist": {
+    "headerTitle": "My Wishlist",
+    "empty": {
+      "title": "You haven’t liked anything yet",
+      "subTitle": "Collect all the things you like in one place",
+      "button": "Discover"
+    }
+  },
+  "seekerDashboard": {
+    "title": "Contributions for you",
+    "header": {
+      "title": "Every Need Met with a Kind Heart",
+      "subtitle": "Begin Your Journey with Dānam"
+    },
+    "howDanamWorks": "How Dānam Works!",
+    "dualFlow": {
+      "postBrowse": {
+        "titlePrimary": "Post/Browse",
+        "titleSecondary": "Contributions",
+        "description": "Post items you no longer need and make a difference. Or browse through generous donations from others."
+      },
+      "expressInterest": {
+        "titlePrimary": "Express",
+        "titleSecondary": "Interest",
+        "description": "Found something you need? Express your interest and connect with donors easily."
+      },
+      "getConnected": {
+        "titlePrimary": "Get",
+        "titleSecondary": "Connected",
+        "description": "Communicate directly with seekers to ensure genuine needs are met."
+      },
+      "identifyRightSeeker": {
+        "titlePrimary": "Identify",
+        "titleSecondary": " a right seeker",
+        "description": "Seamlessly identify the perfect candidates based on your priorities."
+      },
+      "shareExperience": {
+        "titlePrimary": "Acknowledge & Share",
+        "titleSecondary": "experience",
+        "description": "The donor indicates the product as donated, and both parties share their valuable experience."
+      }
+    },
+    "steps": {
+      "postBrowseContributions": {
+        "title": "Post/Browse Contributions",
+        "subtitle": "Post items you no longer need or browse available contributions near you."
+      },
+      "expressInterest": {
+        "title": "Express Interest",
+        "subtitle": "Find matching services and connect with potential contributors."
+      },
+      "getConnected": {
+        "title": "Get Connected",
+        "subtitle": "Communicate directly with seekers to ensure genuine needs are met."
+      },
+      "identifyRightSeeker": {
+        "title": "Identify a Right Seeker",
+        "subtitle": "Seamlessly identify the perfect candidates based on your priorities."
+      },
+      "shareExperience": {
+        "title": "Acknowledge & Share Experience",
+        "subtitle": "Rate your journey and help improve the experience for everyone."
+      }
+    },
+    "impactCreatedTitle": "Impact Created by Dānam!",
+    "impactCarousel": {
+      "items": [
+        {
+          "title": "My daughter finally got a laptop which helped her to become a software engineer, Thanks to Dānam!",
+          "subtitle": "As a parent, nothing brings greater joy than seeing our children pursue their passions and achieve her"
+        },
+        {
+          "title": "Dānam helped us find books for school and my son regained confidence in his studies.",
+          "subtitle": "Support from generous donors gave us hope and made daily learning possible again."
+        },
+        {
+          "title": "We received essential supplies quickly and could focus on rebuilding our family life.",
+          "subtitle": "This platform connected us with kind people who truly cared about our needs."
+        }
+      ]
+    },
+    "whyChooseTitle": "Why Choose Dānam!",
+    "whyChoose": {
+      "items": [
+        {
+          "title": "Transparency",
+          "subtitle": "Clear & honest communication ensures your donations are used as intended."
+        },
+        {
+          "title": "Community",
+          "subtitle": "Dānam brings contributors & seekers together, by creating supportive network to benefit society."
+        },
+        {
+          "title": "Fairness",
+          "subtitle": "We uphold an equal and fair process so every genuine need gets a chance."
+        }
+      ]
+    },
+    "ctaTitle": "What you are looking for?",
+    "reset": "Reset",
+    "resetSuccess": "Preferences reset successfully",
+    "empty": {
+      "title": "Sorry, No Items available based on your need!",
+      "subTitle": "Better luck next time!",
+      "button": "Search again"
+    }
+  },
+  "lookingForFlow": {
+    "common": {
+      "next": "Next",
+      "findItems": "Find Items",
+      "reset": "Reset"
+    },
+    "success": {
+      "saved": "Preferences saved successfully"
+    },
+    "item": {
+      "title": "What are you looking for?",
+      "placeholder": "Write your need here",
+      "noItemFound": "No Item Found",
+      "getStarted": "Get Started",
+      "errors": {
+        "required": "Item is required",
+        "minLength": "Minimum {{min}} character(s) required"
+      }
+    },
+    "gender": {
+      "title": "Select Gender"
+    },
+    "dob": {
+      "title": "Select Date of Birth",
+      "placeholder": "DD/MM/YYYY"
+    },
+    "reason": {
+      "title": "Why are you seeking this item ?",
+      "placeholder": "Please write your reason...",
+      "minCounterHint": "Minimum {{min}} characters required",
+      "errors": {
+        "required": "Reason is required",
+        "minLength": "Please enter at least {{min}} characters"
+      }
+    },
+    "doYou": {
+      "title": "How do you know about us?",
+      "empty": "No item found",
+      "options": {
+        "socialMedia": "Social Media",
+        "friendOrFamily": "Friend or Family",
+        "searchEngine": "Search Engine",
+        "other": "Other"
+      },
+      "errors": {
+        "required": "Please select one option"
+      }
+    },
+    "profession": {
+      "title": "Select Profession",
+      "empty": "No Profession found"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "editProfile": "Edit Profile",
+    "settings": "Settings",
+    "changePassword": "Change Password",
+    "helpSupport": "Help and Support",
+    "logout": "Log Out",
+    "version": "Version",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "saveDetails": "Save Details",
+    "deleteAccount": "Delete Account",
+    "myReceivedGoods": "My Received Goods"
+  },
+  "myReceivedGoods": {
+    "empty": "No received goods found",
+    "error": "Failed to load received goods",
+    "retry": "Retry"
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "updatePassword": "Update Password"
+  },
+  "settings": {
+    "on": "On",
+    "off": "Off",
+    "title": "Settings",
+    "receiveUpdates": "Receive all updates",
+    "receiveUpdatesDesc": "Do not miss any new updates in the app",
+    "nearestDanam": "Get notified for nearest Danam",
+    "nearestDanamDesc": "Stay updated with new danam",
+    "hideIdentity": "Hide my identity",
+    "hideIdentityDesc": "I don't want to show my identity",
+    "deleteAccount": "Delete Account",
+    "deleteAccountDesc": "This will delete all your account data",
+    "updateFailed": "Failed to update setting. Please try again."
+  },
+  "deleteAccountModal": {
+    "title": "Delete Account",
+    "subtitle1": "Are you sure you want to delete your account permanently?",
+    "subtitle2": "Deleting your account will remove all the Information from Dānam.",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "passwordConfirmationModal": {
+    "title": "Confirm Your Password",
+    "placeholder": "Enter your password",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "validationError": "Password is required"
+  },
+  "helpSupport": {
+    "title": "Help and Support",
+    "faqs": "FAQs",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "termsCondition": "Terms and condition",
+    "rateUs": "Rate Us"
+  },
+  "rateUsModal": {
+    "title": "Rate Us",
+    "subtitle": "Share your love for Dānam app by sharing a nice review",
+    "tapText": "Tap the number of stars you want to rate from 1 - 5",
+    "submit": "Submit",
+    "successMessage": "Thank you for your rating!",
+    "ratingRequired": "Please select rating first"
+  },
+  "faqs": {
+    "title": "FAQs",
+    "noFaqsFound": "No FAQs found at the moment."
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "description": "We voluntary Danam money, goods, services, or time to a person, organization, cause, or charity without expecting anything in return. Donations are often made to support various charitable, humanitarian, educational, or religious purposes.",
+    "helpTitle": "Help those truly in need",
+    "helpDescription": "Here are some the reasons one should Danam to make others smile by charity:",
+    "points": [
+      "Voluntary Danam",
+      "Material Goods",
+      "Charitable Purposes",
+      "Impact"
+    ]
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "stellina.harper@gmail.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "1234567890",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Enter your message",
+    "submitButton": "Submit",
+    "successTitle": "Success",
+    "successMessage": "Your message has been sent successfully",
+    "submitting": "Submitting...",
+    "validation": {
+      "fullNameRequired": "Full Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone Number is required",
+      "messageRequired": "Message is required"
+    }
+  },
+  "termsCondition": {
+    "title": "Terms and condition",
+    "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "section1Title": "Lorem ipsum dolor sit amet",
+    "section1Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod:",
+    "section1Points": [
+      "Voluntary Contribution",
+      "Material Goods",
+      "Charitable Purposes",
+      "Impact"
+    ],
+    "section2Title": "Lorem ipsum dolor sit amet",
+    "section2Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "onboarding": {
+    "slide1Title": "Be the\nchange",
+    "slide1Subtitle": "Every act of kindness, no matter how small, makes a difference",
+    "slide2Title": "Contribute,\nimpact & repeat",
+    "slide2Subtitle": "The happiest people are not those getting more, but those giving more",
+    "slide3Title": "Join us,\nchange lives",
+    "slide3Subtitle": "Embrace the joy of giving and watch as it transforms both giver and receiver",
+    "skip": "Skip",
+    "next": "Next",
+    "getStarted": "Get Started →"
+  },
+  "login": {
+    "title": "Login",
+    "subtitle": "Login with your email address and password",
+    "emailLabel": "Email",
+    "emailPlaceholder": "stellina.harper@gmail.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account? ",
+    "signUp": "Sign Up",
+    "errors": {
+      "invalidLoginResponse": "Invalid login response",
+      "generic": "Something went wrong"
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Enter valid email",
+      "passwordRequired": "Password is required"
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "subtitle": "Please enter the email associated with your account to reset your password.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Email",
+    "submitButton": "Reset Password",
+    "submitting": "Resetting...",
+    "returnTo": "Return to? ",
+    "returnAction": "Login",
+    "invalidEmailTitle": "Invalid Email",
+    "invalidEmailMessage": "Please enter a valid email address",
+    "validation": {
+      "emailRequired": "Email is required"
+    }
+  },
+  "resetPassword": {
+    "title": "Create New Password",
+    "subtitle": "Create your new password",
+    "newPasswordLabel": "New Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "newPasswordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "submitButton": "Reset Password",
+    "submitting": "Resetting...",
+    "resetFailedTitle": "Reset Failed",
+    "validation": {
+      "newPasswordRequired": "New Password is required",
+      "confirmPasswordRequired": "Confirm Password is required",
+      "passwordsDoNotMatch": "Passwords do not match"
+    },
+    "errors": {
+      "tryAgain": "Something went wrong. Please try again."
+    }
+  },
+  "resetPasswordSuccess": {
+    "title": "Password Updated",
+    "subtitle": "Your Password has been reset successfully",
+    "continueToLogin": "Continue to Login"
+  },
+  "signup": {
+    "title": "Sign Up",
+    "subtitle": "Create New Account",
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "First Name",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "Last Name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Email",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Phone Number",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "donor": "Donor",
+    "seeker": "Seeker",
+    "signUpButton": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Login",
+    "selectFromGallery": "Select from Gallery",
+    "takePhoto": "Take a Photo",
+    "profilePhotoTitle": "Profile Photo",
+    "selectCountryCode": "Select Country Code",
+    "searchCountry": "Search Country",
+    "searchPlaceholder": "Search anything",
+    "validation": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone Number is required",
+      "phoneInvalid": "Enter 10 digit number",
+      "passwordRequired": "Password is required",
+      "passwordRequirements": "Min 8 chars, 1 uppercase, 1 lowercase, 1 number",
+      "confirmPasswordRequired": "Confirm Password is required",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "minLength2": "Minimum 2 characters"
+    },
+    "alerts": {
+      "success": "Success",
+      "accountCreated": "Account created successfully",
+      "error": "Error"
+    },
+    "errors": {
+      "generic": "Something went wrong"
+    }
+  },
+  "postDetail": {
+    "title": "Post Detail",
+    "previewTitle": "Preview Contribution",
+    "editDetails": "Edit Details",
+    "delete": "Delete",
+    "location": "Location",
+    "contributeNow": "Contribute Now",
+    "markAsContributed": "Mark as Contributed",
+    "contributedTo": "Contributed to",
+    "deleteModal": {
+      "title": "Delete Post",
+      "subtitle": "Are you sure want to delete your post?",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "successModal": {
+      "title": "Congratulations!",
+      "subtitle": "Your contribution is uploaded and it will be live soon.",
+      "backHome": "Back to Home"
+    },
+    "alerts": {
+      "error": "Error",
+      "success": "Success",
+      "fetchPostDetailsFailed": "Failed to fetch post details",
+      "postDeleted": "Post deleted successfully",
+      "postDeleteFailed": "Failed to delete post"
+    }
+  },
+  "productDetail": {
+    "location": "Location",
+    "contributedBy": "Contributed By",
+    "danamProduct": "Danam_Product",
+    "detail": "detail",
+    "reportIssueModal": {
+      "title": "Report an Issue",
+      "description": "Please write what went wrong with you\nwe will investigate the issue and take\nappropriate action."
+    },
+    "contributor": {
+      "nameFallback": "xxxxxxxx xxxxxx",
+      "contributionLabel": "100+ Items Contributed",
+      "itemsContributed": "Items Contributed"
+    },
+    "receivedContributor": {
+      "emailFallback": "-",
+      "phoneFallback": "-"
+    },
+    "chat": {
+      "alertTitle": "Chat",
+      "alertMessage": "Chat action triggered"
+    },
+    "share": {
+      "description": "Description",
+      "location": "Location"
+    },
+    "errors": {
+      "callNotSupported": "Calling is not supported on this device"
+    },
+    "actions": {
+      "interested": "I am Interested",
+      "cancelInterest": "Cancel My Interest",
+      "call": "Call",
+      "chat": "Chat",
+      "reportIssue": "Report an Issue?"
+    }
+  },
+  "itemDetail": {
+    "location": "Location",
+    "postedBy": "Posted By",
+    "itemsContributed": "100+ Items Contributed",
+    "share": {
+      "title": "Share item",
+      "message": "Check out this item"
+    },
+    "errors": {
+      "fetchFailed": "Failed to fetch item details",
+      "retry": "Retry",
+      "empty": "Item details could not be loaded."
+    }
+  },
+  "selectSeeker": {
+    "title": "Select a Seeker",
+    "selectButton": "Select",
+    "noSeekers": "No seekers have expressed interest in this post yet. A seeker must show interest before you can mark it as contributed.",
+    "confirmModal": {
+      "title": "Confirm a Seeker",
+      "content": "Are you sure you want to contribute with {{name}}.",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "alerts": {
+      "fetchSeekersFailed": "Failed to fetch seekers",
+      "markedContributed": "Marked as contributed successfully",
+      "markContributedFailed": "Failed to mark as contributed"
+    }
+  },
+  "selectCategory": {
+    "title": "What are you contributing?",
+    "filterTitle": "Categories",
+    "loading": "Loading categories...",
+    "noCategories": "No categories available",
+    "fetchFailed": "Failed to fetch categories"
+  },
+  "selectSubCategory": {
+    "loading": "Loading subcategories...",
+    "noSubCategories": "No subcategories available",
+    "fetchFailed": "Failed to fetch subcategories"
+  },
+  "logoutModal": {
+    "title": "Logout",
+    "subtitle": "Are you sure want to logout?",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "uploadImages": {
+    "title": "Upload Images",
+    "captureFromCamera": "Capture from camera",
+    "chooseFromGallery": "Choose from gallery",
+    "nextButton": "Next",
+    "alerts": {
+      "noImages": "No Images",
+      "atLeastOneImage": "Please upload at least one image.",
+      "permissionDenied": "Permission Denied",
+      "cameraPermissionRequired": "Camera permission is required to capture photos."
+    }
+  },
+  "selectLocation": {
+    "title": "Select a Location",
+    "searchPlaceholder": "Search for area, street name...",
+    "noLocationFound": "No location found",
+    "nextButton": "Next",
+    "useCurrentLocation": "Use Current location",
+    "fetchingLocation": "Fetching location...",
+    "selectedLocation": "Selected Location"
+  },
+  "addDetail": {
+    "title": "Add details",
+    "labelTitle": "Title",
+    "placeholderTitle": "Enter title",
+    "labelDescription": "Describe what you are contributing",
+    "placeholderDescription": "Enter description",
+    "nextButton": "Next"
+  },
+  "chat": {
+    "title": "Chat",
+    "searchPlaceholder": "Search",
+    "seekers": "Seeker",
+    "reportUser": "Report User",
+    "inputPlaceholder": "Type your message",
+    "send": "Send",
+    "noMessages": "No messages yet",
+    "noMessagesTitle": "No Messages Yet",
+    "noMessagesSubtitleSeeker": "Start browsing items and express your interest to begin a conversation.",
+    "noMessagesSubtitleDonor": "Your chats will appear here once seekers express interest in your contributions.",
+    "typeMessage": "Type your message...",
+    "online": "Online",
+    "offline": "Offline",
+    "typing": "typing...",
+    "loading": "Loading...",
+    "error": {
+      "title": "Chat Error",
+      "fetchFailed": "Failed to fetch messages",
+      "sendFailed": "Failed to send message",
+      "generic": "Something went wrong in the chat"
+    },
+    "document": "Document",
+    "camera": "Camera",
+    "gallery": "Gallery",
+    "imagePlaceholder": "[Image]",
+    "documentPlaceholder": "[Document]",
+    "shareDocument": "Share Document"
+  },
+  "productSeekers": {
+    "searchPlaceholder": "Search",
+    "viewRequest": "View Request",
+    "noInterest": "No interest shown yet",
+    "noInterestDescription": "It looks like no seekers have expressed interest in this product so far.",
+    "titleFallback": "Product",
+    "justNow": "Just Now"
+  },
+  "reportUser": {
+    "title": "Report {{name}}?",
+    "description": "Please write what went wrong with user we will investigate the issue and take appropriate action.\n\nWe will remove your post from users account he/she won't be able to contact you in future",
+    "placeholder": "Please write your reason...",
+    "cancel": "Cancel",
+    "report": "Report",
+    "success": "User reported successfully."
+  },
+  "requestDetail": {
+    "title": "New Request Details",
+    "reportUser": "Report User",
+    "labels": {
+      "seeking": "What are you looking for?",
+      "gender": "Gender",
+      "dob": "Date of Birth",
+      "profession": "Profession",
+      "location": "Location",
+      "reason": "Why are you seeking this item?",
+      "requestedDate": "Requested Date"
+    },
+    "actions": {
+      "reject": "Reject",
+      "accept": "Accept"
+    },
+    "alerts": {
+      "fetchFailed": "Failed to fetch request details",
+      "acceptSuccess": "Request accepted successfully",
+      "rejectSuccess": "Request rejected successfully",
+      "reportSuccess": "User reported successfully"
+    },
+    "rejectModal": {
+      "title": "Reject Request",
+      "subtitle": "Are you sure you want to reject the request?",
+      "placeholder": "Please write your reason...",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "acceptSuccessModal": {
+      "title": "Request Accepted",
+      "subtitle": "Request has been accepted successfully",
+      "backToChat": "Back to Chat"
+    }
+  }
+}

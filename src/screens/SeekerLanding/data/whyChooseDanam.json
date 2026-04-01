@@ -1,0 +1,20 @@
+[
+  {
+    "id": "transparency",
+    "iconKey": "search",
+    "titleKey": "seekerDashboard.whyChoose.items.0.title",
+    "subtitleKey": "seekerDashboard.whyChoose.items.0.subtitle"
+  },
+  {
+    "id": "community",
+    "iconKey": "contributor",
+    "titleKey": "seekerDashboard.whyChoose.items.1.title",
+    "subtitleKey": "seekerDashboard.whyChoose.items.1.subtitle"
+  },
+  {
+    "id": "fairness",
+    "iconKey": "chat",
+    "titleKey": "seekerDashboard.whyChoose.items.2.title",
+    "subtitleKey": "seekerDashboard.whyChoose.items.2.subtitle"
+  }
+]

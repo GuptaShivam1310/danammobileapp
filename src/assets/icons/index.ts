@@ -1,0 +1,47 @@
+export { default as DanamLogoIcon } from './danamlogo.svg';
+export { default as DashBorderIcon } from './dash-border.svg';
+export { default as DashBorderRightIcon } from './dash-border-right.svg';
+export { default as DashBorderLeftIcon } from './dash-border-left.svg';
+export { default as SeekerDashboardExpressIcon } from './seekerDashboardExpress.svg';
+export { default as SeekerDashboardIdentifierIcon } from './seekerDashboardIdentifier.svg';
+export { default as SeekerDashboardPostIcon } from './seekerDashboardPost.svg';
+export { default as SEEKER_DASHBOARD_ACKNOWLEDGEMENT_ASSET } from './seekerDashboardAcknowledgement.svg';
+export { default as SeekerDashboardConnectIcon } from './seekerDashboardConnects.svg';
+export { default as ContributedDoneIcon } from './contributed_done.svg';
+
+export { default as arrow } from './arrow.svg';
+export { default as ArrowIcon } from './arrow.svg';
+export { default as RightArrowIcon } from './right-arrow.svg';
+export { default as FileSearchIcon } from './file-search.svg';
+export { default as People } from './people.svg';
+export { default as ChatIcon } from './chat.svg';
+export { default as ChevronRight } from './chevron-right.svg';
+export { default as ChevronRightIcon } from './chevron-right.svg';
+export { default as SeekerConform } from './seekerConform.svg';
+export { default as SuccessCheckIcon } from './success_check.svg';
+export { default as CloseIcon } from './close.svg';
+export { default as DanamEditIcon } from './danam_edit.svg';
+
+// Icons moved from images.ts
+export { default as SearchIcon } from './search.svg';
+export { default as NotificationIcon } from './pending-notification.svg';
+export { default as DefaultNotificationIcon } from './notification.svg';
+export { default as defaultFilterIcon } from './Vector.svg';
+export { default as SelectedFilterIcon } from './selectedFilter.svg';
+export { default as FilterIcon } from './filter.svg';
+export { default as DashboardIcon } from './dashboard.svg';
+export { default as PostIcon } from './post.svg';
+export { default as ProfileIcon } from './profile.svg';
+export { default as MoreIcon } from './contributor.svg';
+export { default as ActiveDashboardIcon } from './active-dashboard.svg';
+export { default as ActiveChatIcon } from './active-chat.svg';
+export { default as ActivePostIcon } from './active-post.svg';
+export { default as ActiveProfileIcon } from './active-profile.svg';
+export { default as ActiveMoreIcon } from './active-contributor.svg';
+export { default as ContributorIcon } from './contribute.svg';
+export { default as ContributedIcon } from './contributed.svg';
+export { default as CameraIcon } from './camera.svg';
+export { default as GalleryIcon } from './gallery.svg';
+export { default as DeleteIcon } from './deletePost.svg';
+export { default as LocationIcon } from './location.svg';
+export { default as BannerIcon } from './banner.svg';
